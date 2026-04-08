@@ -1,0 +1,9 @@
+.admin-page { padding:40px 0 80px; }
+.admin-quick-card { display:flex;flex-direction:column;align-items:flex-start;gap:10px;background:white;border-radius:var(--radius);border:1px solid var(--border);padding:28px;transition:all 0.25s;color:inherit; }
+.admin-quick-card:hover { border-color:var(--saffron);transform:translateY(-3px);box-shadow:var(--shadow-md); }
+.admin-quick-card svg { color:var(--saffron); }
+.admin-quick-card h3 { font-size:1rem;color:var(--indigo); }
+.admin-quick-card p { font-size:0.85rem;color:var(--text-muted); }
+.icon-btn { background:none;border:1.5px solid var(--border);border-radius:8px;padding:6px 8px;cursor:pointer;color:var(--text-secondary);display:inline-flex;align-items:center;transition:all 0.2s; }
+.icon-btn:hover { border-color:var(--saffron);color:var(--saffron); }
+.icon-btn.danger:hover { border-color:#e53935;color:#e53935; }
